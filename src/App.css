@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+h1{
+  font-family: nunito, sans-serif;
+}
+#navigationbar{
+  background-color: #e9e9e9b2;
+}
+.active{
+  color: orange;
+}
+.heroblog{
+  position: relative;
+  overflow: hidden;
+}
+.heroblog .overlay-content{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0000009c;
+
+  
+}
+b{
+  font-size: 14px;
+  color:#f75815 ;
+  text-transform:uppercase;
+}
+.card-shadow{
+  box-shadow: 2px 2px 5px #959595;
+}
+
+.banner-section{
+  background:color-mix(in srgb, #f75815, transparent 97%);
+}
+.img-container{
+  position: relative;
+  z-index: -2;
+}
+.play-btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f75815;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
