@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Profile from '../Component/Profile'
+import Aboutauthor from '../Component/Aboutauthor'
 
 const Authorprofile = () => {
   return (
@@ -14,6 +15,7 @@ const Authorprofile = () => {
           <Profile/>
         </Col>
         <Col md='8'>
+          <Aboutauthor/>
         </Col>
       </Row>
        </div>

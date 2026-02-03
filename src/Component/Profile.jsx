@@ -15,21 +15,26 @@ const Profile = () => {
                 <hr />
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex flex-column align-items-center ">
-                        <span className='fs-3' style={{color:'#f75815'}}>147</span>
+                        <span className='fs-3' style={{ color: '#f75815' }}>147</span>
                         <small className="text-muted">Articles</small>
                     </div>
                     <div className="d-flex flex-column align-items-center ">
-                        <span className='fs-3' style={{color:'#f75815'}}>13</span>
+                        <span className='fs-3' style={{ color: '#f75815' }}>13</span>
                         <small className="text-muted">Awards</small>
                     </div>
                     <div className="d-flex flex-column align-items-center ">
-                        <span className='fs-3' style={{color:'#f75815'}}>25</span>
+                        <span className='fs-3' style={{ color: '#f75815' }}>25</span>
                         <small className="text-muted">Followers</small>
                     </div>
                 </div>
                 <hr />
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
+                <div className="d-flex justify-content-center gap-4 fs-6 mt-4">
+
+                    <div id="brand-icons" style={{ background: 'color-mix(in srgb, #f75815, transparent 70%)', color: '#f75815' }} className="rounded-circle"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div id="brand-icons" style={{ background: 'color-mix(in srgb, #f75815, transparent 70%)', color: '#f75815' }} className="rounded-circle"><i class="fa-brands fa-facebook"></i></div>
+                    <div id="brand-icons" style={{ background: 'color-mix(in srgb, #f75815, transparent 70%)', color: '#f75815' }} className="rounded-circle"><i class="fa-brands fa-instagram"></i></div>
+                    <div id="brand-icons" style={{ background: 'color-mix(in srgb, #f75815, transparent 70%)', color: '#f75815' }} className="rounded-circle"><i class="fa-brands fa-linkedin"></i></div>
+                </div>
             </div>
         </div>
     )

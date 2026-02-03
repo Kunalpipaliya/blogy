@@ -15,6 +15,7 @@ import Blogdetails from './pages/Blogdetails';
 import Authorprofile from './pages/Authorprofile';
 import Contact from './pages/Contact';
 import Navigationbar from './Component/Navbar';
+import Footer from './Component/Footer';
 function App() {
   return (
     <div className="App">
@@ -41,6 +42,7 @@ function App() {
           <Home/>
         </Route>
       </Switch>
+        <Footer/>
       </Router>
     </div>
   );

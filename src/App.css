@@ -53,3 +53,11 @@ b{
   top: 50%;
   right: 50%;
 }
+#brand-icons{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
