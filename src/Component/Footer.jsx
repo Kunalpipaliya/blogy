@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            <div className="text-center"><i class="fa-regular fa-copyright "></i> Copyright <span className="fw-bold">Blogy</span> All Rights Reserved</div>
+            <div className="mb-3 text-center"><i class="fa-regular fa-copyright "></i> Copyright <span className="fw-bold">Blogy</span> All Rights Reserved</div>
         </div>
     )
 }
