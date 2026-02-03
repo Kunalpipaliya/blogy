@@ -19,7 +19,7 @@ const Footer = () => {
                         <div id="brand-icons" style={{ border: '1px solid gray', color: 'gray' }} className="rounded-circle"><i class="fa-brands fa-linkedin"></i></div>
                     </div>
                 </div>
-                <div className="d-flex gap-5 flex-wrap">
+                <div className="d-flex gap-5 flex-wrap mt-4">
                     <div>
                         <h6 >Useful Links</h6>
                         <Link href="/" underline="none" color="textSecondary" className='d-block mt-3 text-muted fs-6 lh-1'>Home</Link>
@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            
+            <div className="text-center"><i class="fa-regular fa-copyright "></i> Copyright <span className="fw-bold">Blogy</span> All Rights Reserved</div>
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 const Navigationbar = () => {
     return (
-        <div>
+        <div className="container">
             <nav className='d-flex justify-content-between align-items-center p-3'>
                 <h1 className='fs-2 fw-light'>Blogy<span className="text-danger fs-1 ">.</span></h1>
                 <Form className="d-flex">

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col,Row } from 'react-bootstrap'
-import Form from '../Component/Form'
+import ContactForm from '../Component/ContactForm'
 
 const Contact = () => {
   let detail=[{icon:'fa-solid fa-location-dot',title:'Our Address',info:'2847 Rainbow Road, Springfield, IL 62701, USA'},{icon:'fa-solid fa-phone',title:'Contact Number',info:'Mobile: +1 (555) 123-4567 Email: info@example.com'},{icon:'fa-regular fa-clock',title:'Opening Hour',info:'Monday - Saturday: 9:00 - 18:00 Sunday: Closed'}]
@@ -25,7 +25,7 @@ const Contact = () => {
               })
             }
           </Row>
-          <Form/>
+          <ContactForm/>
         </div>
       </div>
     </div>
