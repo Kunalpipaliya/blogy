@@ -60,6 +60,7 @@ const ContactForm = () => {
           </InputGroup>
         </Col>
       </Row>
+    <div className="d-flex justify-content-center mt-5"> <button className="btn btn-warning" >Submit Message</button></div>
     </div>
   );
 };
